@@ -1,0 +1,27 @@
+{
+  "simulation": {
+    "total_duration_days": 365,
+    "train_duration_hours": 8,
+    "load_kpa": 26.2
+  },
+  "daily_schedule": [
+    {
+      "name": "Morning",
+      "hours_start": 0,
+      "hours_end": 8,
+      "occupancy_rate": 0.30
+    },
+    {
+      "name": "Afternoon",
+      "hours_start": 8,
+      "hours_end": 16,
+      "occupancy_rate": 0.50
+    },
+    {
+      "name": "Evening",
+      "hours_start": 16,
+      "hours_end": 24,
+      "occupancy_rate": 0.80
+    }
+  ]
+}
